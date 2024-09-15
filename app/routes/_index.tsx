@@ -8,8 +8,8 @@ import Skills from '../components/Skills'
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "New Remix App" },
-    { name: "description", content: "Welcome to Remix!" },
+    { title: "Andres Elacion III" },
+    { name: "description", content: "Welcome to Andres Elacion III!" },
   ];
 };
 
