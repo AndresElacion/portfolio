@@ -1,4 +1,5 @@
 import { projects } from "../data/projects"
+import { Button } from "../components/ui/button";
 
 export default function Featured() {
     return (
@@ -18,11 +19,9 @@ export default function Featured() {
                             <div className="flex flex-col lg:w-1/2">
                                 <h3 className="uppercase text-xl lg:text-3xl">{project.name}</h3>
                                 <p className="flex-grow">{project.description}</p>
-                                <button type="button" className="inline-block px-6 py-2.5 border-2 border-cyan-500 font-medium text-xs leading-tight uppercase rounded-xl hover:text-white hover:bg-cyan-500 focus:outline-none focus:ring-0">
-                                    <a href={project.url} target="_blank" rel="noreferrer">
-                                        Link
-                                    </a>
-                                </button>
+                                <a href={project.url} target="_blank" rel="noreferrer">
+                                    <Button variant="outline">Link</Button>
+                                </a>
                             </div>
                         </div>
                     )
