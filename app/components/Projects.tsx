@@ -31,11 +31,12 @@ export default function Projects() {
                   onMouseEnter={() => setHoveredProject(project)}
                 >
                   <AccordionItem value={`project-${index}`}>
-                    <AccordionTrigger>
+                    <AccordionTrigger className="uppercase text-xl lg:text-2xl">
                       {project.name}
                     </AccordionTrigger>
                     <AccordionContent>
-                      <p>{project.description}</p>
+                      <p className="pb-4">{project.description}</p>
+                      <p className="pb-4">made with: <span className="uppercase">{project.stack}</span></p>
                       <a href={project.url} target="_blank" rel="noreferrer">
                         <Button variant="outline">Link</Button>
                       </a>

@@ -2,7 +2,7 @@ import { backends, dbs, dbVisualizations, frontends } from "../data/skills";
 
 export default function Skills() {
     return (
-        <div>
+        <div id="skills">
             <div className="mt-12 mb-8">
                 <p className="uppercase">/ Skills</p>
                 <hr />
@@ -14,7 +14,7 @@ export default function Skills() {
                         {/* Frontend */}
                         <div className="order-1">
                             <h3 className="text-xl mb-5 font-bold uppercase text-center">Frontend</h3>
-                            <div className="grid gap-x-6 gap-y-6 grid-cols-2 md:grid-cols-3 mb-5 lg:px-44">
+                            <div className="grid gap-x-6 gap-y-6 grid-cols-2 md:grid-cols-3 mb-5 lg:px-42">
                                 {frontends.map((frontend, index) => (
                                     <div key={index} className="mx-auto">
                                         <div className="bg-gray-100 border-2 p-2 rounded-xl shadow-xl w-16 h-16">
@@ -28,7 +28,7 @@ export default function Skills() {
                         {/* Backend */}
                         <div className="order-2">
                             <h3 className="text-xl font-bold uppercase mb-5 text-center">Backend</h3>
-                            <div className="grid gap-x-6 gap-y-6 grid-cols-2 md:grid-cols-3 sm:grid-cols-3 mb-5 lg:px-44">
+                            <div className="grid gap-x-6 gap-y-6 grid-cols-2 md:grid-cols-3 sm:grid-cols-3 mb-5 lg:px-42">
                                 {backends.map((backend, index) => (
                                     <div key={index} className="mx-auto">
                                         <div className="bg-gray-100 border-2 p-2 rounded-xl shadow-xl w-16 h-16">
@@ -42,7 +42,7 @@ export default function Skills() {
                         {/* Database */}
                         <div className="order-3">
                             <h3 className="text-xl font-bold uppercase mb-5 text-center">Database</h3>
-                            <div className="grid gap-x-6 gap-y-6 grid-cols-2 md:grid-cols-2 sm:grid-cols-2 mb-5 lg:px-44">
+                            <div className="grid gap-x-6 gap-y-6 grid-cols-2 md:grid-cols-2 sm:grid-cols-2 mb-5 lg:px-42">
                                 {dbs.map((db, index) => (
                                     <div key={index} className="mx-auto">
                                         <div className="bg-gray-100 border-2 p-2 rounded-xl shadow-xl w-16 h-16">
