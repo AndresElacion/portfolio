@@ -20,7 +20,7 @@ export default function Featured() {
                                 <p className="flex-grow">{project.description}</p>
                                 <button type="button" className="inline-block px-6 py-2.5 border-2 border-cyan-500 font-medium text-xs leading-tight uppercase rounded-xl hover:text-white hover:bg-cyan-500 focus:outline-none focus:ring-0">
                                     <a href={project.url} target="_blank" rel="noreferrer">
-                                        Live
+                                        Link
                                     </a>
                                 </button>
                             </div>
