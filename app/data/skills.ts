@@ -24,6 +24,9 @@ export const frontends = [
         "img" : "/img/skills/pinia.svg",
     },
     {
+        "img" : "/img/skills/react.svg",
+    },
+    {
         "img" : "/img/skills/underwater_jelly.svg",
     },
     {

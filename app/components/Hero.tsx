@@ -7,7 +7,9 @@ export default function Hero() {
                         <h1 className="uppercase font-semibold">andres</h1>
                         <h1 className="uppercase font-semibold">elacion III <span className="font-suse">dev</span></h1>
                     </div>
-                    <p className="text-2xl">He is a Full Stack Web Developer based in The Philippines. He`s creating stunning, eye-catching and user-friendly websites and web applications</p>
+                    <p className="text-2xl">He is a Full Stack Web Developer based in The Philippines. He`s creating stunning, eye-catching and user-friendly websites and web applications.</p>
+                    <br />
+                    <p className="text-2xl">He has a solid foundation in deploying applications on AWS EC2 and setting up SSL certificates, continuously enhancing his skills in cloud computing.</p>
                     <br />
                     <p className="text-2xl">When he`s not coding, he loves to play guitar and online games. Even though he`s not very good at it, it does help him bring out his creative side when building websites.</p>
 
