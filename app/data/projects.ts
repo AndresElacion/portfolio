@@ -29,23 +29,23 @@ export const projects = [
         "description" : "This is to schedule and track patient consultation. It has attendance features to track available doctor`s, real-time filtering for doctos`s, patient`s and staff`s. Set appointment by staff and tracking consultation result.",
         "image" : "/img/projects/patient.png",
         "stack" : "php, laravel, blade, alpinejs, mysql",
-        "url" : "https://patientmanagement.aeproject.online",
+        "url" : "https://github.com/AndresElacion/patient",
     },
     {
         "name" : "Project Management",
         "slug" : "project-management",
         "description" : "This is a complete project management with tasks assignment to user and tracking of projects.",
         "image" : "/img/projects/ProjectManagement.png",
-        "stack" : "php, laravel, javascript, react, indertia, mysql",
-        "url" : "https://projectmanagement.aeproject.online"
+        "stack" : "php, laravel, javascript, react, inertia, mysql",
+        "url" : "https://github.com/AndresElacion/projectManagement"
     },
     {
         "name" : "Client Asset Management",
         "slug" : "client-asset-management",
         "description" : "This is a complete client asset management with server specification and assigned user.",
         "image" : "/img/projects/ClientAsset.png",
-        "stack" : "php, laravel, javascript, react, indertia, mysql",
-        "url" : "https://clientasset.aeproject.online"
+        "stack" : "php, laravel, javascript, react, inertia, mysql",
+        "url" : "https://github.com/AndresElacion/AssetInventory"
     },
     {
         "name" : "Outsource10x",
@@ -61,7 +61,7 @@ export const projects = [
         "description" : "This is a banking web application with deposit, withdraw, transfer amount to another account using card number and queries for transaction",
         "image" : "/img/projects/banking.png",
         "stack" : "html, php, mysql",
-        "url" : "https://banking.aeproject.online"
+        "url" : "https://github.com/AndresElacion/banking"
     },
     {
         "name" : "Barangay web",
@@ -69,7 +69,7 @@ export const projects = [
         "description" : "This is a barangay web application with creating barangay ID, incident report, permit, officials, staffs and downloading pdf for permit",
         "image" : "/img/projects/brgy.png",
         "stack" : "php, laravel, blade, alpinejs, mysql",
-        "url" : "https://brgy.aeproject.online"
+        "url" : "https://github.com/AndresElacion/brgy"
     },
     {
         "name" : "hris",
@@ -77,7 +77,7 @@ export const projects = [
         "description" : "This is a hris web application with attendance, benefits, departments, employee, payroll, position, role management",
         "image" : "/img/projects/hris.png",
         "stack" : "vuejs, typescript, pinia, laravel, mysql",
-        "url" : "https://hris.aeproject.online"
+        "url" : "https://github.com/TCZPROJECTS/HRIS"
     },
     {
         "name" : "inventory",
@@ -85,7 +85,7 @@ export const projects = [
         "description" : "This is a inventory web application with products management, category, checkout and reports for transaction",
         "image" : "/img/projects/inventory.png",
         "stack" : "php, laravel, blade, alpinejs, mysql",
-        "url" : "https://tci.aeproject.online"
+        "url" : "https://github.com/AndresElacion/TCI"
     },
     {
         "name" : "ticketing web app",
@@ -93,7 +93,7 @@ export const projects = [
         "description" : "This is a ticketing system with ticket management, department, priority, status and real time chat api munafio/chatify",
         "image" : "/img/projects/ticketing.png",
         "stack" : "vuejs, typescript, pinia, laravel, mysql",
-        "url" : "https://ticketing.aeproject.online"
+        "url" : "https://github.com/AndresElacion/ticketingSystem"
     },
     {
         "name" : "school enrollment",
@@ -101,7 +101,7 @@ export const projects = [
         "description" : "This is a school enrollment system with auto account creation after enrollment, faculty, section, subject, term and payment",
         "image" : "/img/projects/enrollment.png",
         "stack" : "vuejs, typescript, pinia, laravel, mysql",
-        "url" : "https://schoolenrollment.aeproject.online"
+        "url" : "https://github.com/AndresElacion/School-Management-System"
     },
     {
         "name" : "e-commerce",
@@ -109,6 +109,6 @@ export const projects = [
         "description" : "This is a e-commerce web app with products, single product, orders, checkout and payment",
         "image" : "/img/projects/ecommerce.png",
         "stack" : "vuejs, typescript, pinia, laravel, mysql",
-        "url" : "https://ecommerce.aeproject.online"
+        "url" : "https://github.com/AndresElacion/aeproject"
     },
 ]
