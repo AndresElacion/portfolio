@@ -1,12 +1,11 @@
 export const projects = [
     {
-        "name" : "Patient Management",
-        "slug" : "patient-management",
-        "description" : "This is to schedule and track patient consultation. It has attendance features to track available doctor`s, real-time filtering for doctos`s, patient`s and staff`s. Set appointment by staff and tracking consultation result.",
-        "image" : "/img/projects/patient.png",
-        "stack" : "php, laravel, blade, alpinejs, mysql",
-        "url" : "https://patientmanagement.aeproject.online",
-        
+        "name" : "Brown Green",
+        "slug" : "brown-green",
+        "description" : "Small business website",
+        "image" : "/img/projects/brown-green.png",
+        "stack" : "React Js, Tailwind CSS",
+        "url" : "https://brown-green.vercel.app/",
     },
     {
         "name" : "A.Tlaw Lagmay",
@@ -15,6 +14,22 @@ export const projects = [
         "image" : "/img/projects/atlaw.png",
         "stack" : "html, bootstrap, php",
         "url" : "https://atlaw.com.ph/"
+    },
+    {
+        "name" : "CionUI",
+        "slug" : "cion-ui",
+        "description" : "Personal collection of components and utilities for faster web development",
+        "image" : "/img/projects/cionui.png",
+        "stack" : "React, Typescript, Tailwind CSS",
+        "url" : "https://cionui.vercel.app/",
+    },
+    {
+        "name" : "Patient Management",
+        "slug" : "patient-management",
+        "description" : "This is to schedule and track patient consultation. It has attendance features to track available doctor`s, real-time filtering for doctos`s, patient`s and staff`s. Set appointment by staff and tracking consultation result.",
+        "image" : "/img/projects/patient.png",
+        "stack" : "php, laravel, blade, alpinejs, mysql",
+        "url" : "https://patientmanagement.aeproject.online",
     },
     {
         "name" : "Project Management",
@@ -35,7 +50,7 @@ export const projects = [
     {
         "name" : "Outsource10x",
         "slug" : "outsource10x",
-        "description" : "This is a job portal website. Contributed a large features such as (Backend and Frontend for employer, freelancer and Admin, Managed databases, Contributed to UI/UX design). This app is not yet deployed, code turned over",
+        "description" : "This is a job portal website. Contributed a large features such as (Backend and Frontend for employer, freelancer and Admin, Managed databases, Contributed to UI/UX design).",
         "image" : "/img/projects/outsource.png",
         "stack" : "vuejs, typescript, pinia, laravel, mysql",
         "url" : ""
